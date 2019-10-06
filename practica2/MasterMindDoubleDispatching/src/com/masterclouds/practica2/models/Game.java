@@ -32,7 +32,7 @@ public final class Game {
     }
     
     public Result getLastResultProposeCombination() {
-        return this.results.get(this.getAttempts() - 1);
+        return this.getResultProposeCombination(this.getAttempts() - 1);
     }
     
     public boolean isLastProposeCombinationWinner() {
