@@ -4,7 +4,7 @@ Practica 2 - Diseño y calidad
 ## MasterMind UML
 ### svg 
 <p align="center">
-  <img alt="" src="https://www.plantuml.com/plantuml/img/VLH1QiCm4Bph5NjqYfqNb9BIQmkXEVIyiHOZa2KZoPZGzkzTIuaj9QOtx-piQ7OaVF01NHXxBKIhqNluG1_8zSh8Rm63nakr0n2_j_Q9MaVXo3Wv9XHrTNHsi9vaAdSyxsX0Hr4208sVcCKuJ4u5XbatoPQJip26GFqGF7yEgHa7EmhlxB3ahvAlSSglm8tuPlkpCXYKDLdta_oeGwoL_rB6NBMKVxSybOhMcg3CIFDPodJLgKKJjuCbbKnTa1bx1hHrCEy1u4ZMSDOZrN0XhUrKG-U8J0tMeUaO7aOtQ5h2I9bccclG6PYyeMv7ZSic6-lcSS-Moy3lJd64SbaQ5MSLDs6BrgkRMjcR4K-XIWuUebmoIltv4Cc7pFSgiSUEPE7lVbQixn6UckQbU70FpV9P296JOOjGrc1pJdwfXP1TVUGSyG31Vl-Vt3qp9IHoE6uLOnO5_lpJI3kPPiF69ctBXDW0qsvN8q8So4Z-D_m1">
+  <img alt="" src="https://www.plantuml.com/plantuml/svg/ZLF12eCm3BttAteUw1SC4Jpiii7Om7kdsIYqpMWhNlRnKqjNhKwzb9ZtclUIrDnOfcqZ1I6LOCRG2pCMjEIg9Y6aXwJ6LYKPFUEBLuj8oQ4bXAiEUB8At7T_q3JDQ87AQXG2j1VgCWO51DhnuqfDa54SfEwzvnEJQnIeDDW2vOChPZcg_zIhnZSQsCMzWMd4lh8zLSBFPUZQpo64eVMXimtEtE_61UTalW6to-6CPZlYHl2gUCITwKPuFvi5UGlZPnIkbznmYvtxMIgqwjVXPp1zUWiLQEADHBd12AM4vA3gxl_u0W00">
 </p>
 
 ### PlantUML
