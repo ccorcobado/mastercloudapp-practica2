@@ -19,10 +19,6 @@ public abstract class Controller {
         return this.game.getAttempts();
     }
     
-    public int getLengthSecretCombination() {
-        return this.game.getLengthSecretCombination();
-    }
-    
     public List<Color> getColorsProposeCombination(int index) {
         return this.game.getColorsProposeCombination(index);
     }

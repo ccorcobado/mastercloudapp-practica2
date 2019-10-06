@@ -48,10 +48,6 @@ public final class Game {
         this.results.add(this.secretCombination.getResult(proposeCombination));
     }
     
-    public int getLengthSecretCombination() {
-        return this.secretCombination.colors.size();
-    }
-    
     public List<Color> getColorsProposeCombination(int index) {
         return this.proposesCombination.get(index).colors;
     }
