@@ -12,7 +12,7 @@ public abstract class Combination {
         this.colors = new ArrayList<>();
     }
 
-    static int getWidth() {
+    public static int getWidth() {
         return Combination.WIDTH;
     }
 }

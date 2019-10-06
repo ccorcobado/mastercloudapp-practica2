@@ -9,16 +9,11 @@ public class ProposeCombinationController extends Controller {
         super(game, state);
     }
     
-    public void stateInResume() {
-        this.state.next();
-    }
-    
     public void add(ProposeCombination proposeCombination) {
         this.game.addResult(proposeCombination);
-    }
-    
-    public boolean isFinished() {
-        return this.game.isFinished();
+        
+        if (this.game.isFinished())
+            this.state.next();
     }
     
     @Override

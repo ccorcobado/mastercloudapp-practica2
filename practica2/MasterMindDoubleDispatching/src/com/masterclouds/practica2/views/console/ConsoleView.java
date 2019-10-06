@@ -22,22 +22,10 @@ public class ConsoleView extends View {
     
     @Override
     public void visit(ProposeCombinationController proposeCombinationController) {
-        ProposeCombinationView proposeCombinationView = new ProposeCombinationView(proposeCombinationController);
-        ProposeCombination proposeCombinationReaded;
-        
-        do  {
-            proposeCombinationView.println();
-            proposeCombinationReaded = new ProposeCombination(proposeCombinationView.read());
-            if (proposeCombinationReaded.hasError())
-                proposeCombinationView.printError(proposeCombinationReaded.getError());
-            else
-                proposeCombinationController.add(proposeCombinationReaded);
-        } while (proposeCombinationReaded.hasError());
-        
+        ProposeCombinationView proposeCombinationView = new ProposeCombinationView(proposeCombinationController);        
+        ProposeCombination proposeCombinationReaded = new ProposeCombination(proposeCombinationView.read());
+        proposeCombinationController.add(proposeCombinationReaded);        
         new ResultCombinationView(proposeCombinationController).println();
-        
-        if (proposeCombinationController.isFinished())
-            proposeCombinationController.stateInResume();
     }
 
     @Override
